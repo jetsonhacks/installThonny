@@ -9,14 +9,14 @@ Because Thonny is typically used to support microcontrollers such as the Raspber
 
 Thonny is installed in a virtual environment (venv) so as to cause the least disturbance as possible. The virtual environment is installed in ~/thonny.
 In order run thonny, you will need to source the environment appropriately. For example:
-'''
+```
 $ source ~/thonny/bin/activate
 $ thonny
-'''
+```
 
 Note: The . command is equivalent to source in the above command, i.e.
-'''
+```
 $ . ~/thonny/bin/activate
-'''
+```
 
 
