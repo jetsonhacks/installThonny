@@ -27,14 +27,12 @@
 sudo usermod -a -G dialout $USER
 # Install dependencies
 sudo apt update
-sudo apt install python3.7 -y
-sudo apt install python3.7-venv -y
-sudo apt install python3-pip -y
+sudo apt install python3.7 python3.7-venv -y
 # Install Thonny in a virtual environment
 python3.7 -m venv ~/thonny
 cd ~/thonny
 source bin/activate 
-# Update pip in the environment; Thonny installation dependency
+# Update pip3 in Python 3.7; Thonny installation dependency
 pip3.7 install --upgrade pip
 pip3 install thonny
 
