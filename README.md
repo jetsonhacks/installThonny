@@ -19,4 +19,9 @@ Note: The . command is equivalent to source in the above command, i.e.
 $ . ~/thonny/bin/activate
 ```
 
+# Releases
 
+## August, 2022
+* Pre Release
+* Tested on Jetson Nano, Jetson Xavier NX
+* JetPack 4.6.1, L4T 32.7.2
